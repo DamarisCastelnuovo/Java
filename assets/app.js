@@ -1,12 +1,51 @@
-let num1 = Number(prompt("Ingrese la edad de sus 5 amigas"));
+let num1 = prompt("Ingrese la edad de 3 amigas o esc para interrumpir");
+let total = 0;
+ 
+while (num1 != 'ESC' && num1 != 'esc'){
+    total += Number(num1);
+    function suma (total){
+        return total / 3;
+    }
+    num1 = prompt("Ingrese la edad de 3 amigas o esc para interrumpir");
+}
+
+alert(`El promedio de la edad de 3 amigas es ${suma(total)}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 let num2 = Number(prompt("Ingrese otra edad"));
 let num3 = Number(prompt("Ingrese otra edad"));
 let num4 = Number(prompt("Ingrese otra edad"));
 let num5 = Number(prompt("Ingrese otra edad"));
-
-function suma (num1, num2, num3, num4, num5){
-    return (num1 + num2 + num3 + num4 + num5) / 5;
-}
-
-alert(`El promedio de la edad de sus 5 amigas es ${suma(num1, num2, num3, num4, num5)}`);
-
+*/
