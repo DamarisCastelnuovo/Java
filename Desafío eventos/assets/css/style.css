@@ -1,0 +1,179 @@
+
+#navegacion{
+    font-family: Arial;                      
+  }   
+  ul{
+    display: none;
+  }           
+  /*            
+  input:checked  ~ ul{
+     display:block;
+  }                       
+  input {
+     display: none;
+  } 
+*/                    
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid rgb(66, 23, 23);
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }                       
+  /* Estilo del boton*/
+  .label:hover{
+     background: rgb(188, 93, 93);
+  }                       
+  /* Estilo del boton cuando el menú está expandido*/
+  input:checked ~ label {
+  background: rgb(64, 18, 18);
+  }                       
+  ul{
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+  }                   
+  li {
+  display: block;
+  background: rgb(248, 205, 205);
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid rgb(73, 36, 36); ;
+  }                       
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  li:hover {
+  filter: brightness(110%);
+  }
+
+  
+  .buscar{
+  color: rgb(64, 18, 18) ;
+  border-color: brown;
+  background-color: rgb(248, 205, 205);
+  text-align: center;
+  margin: 0px;
+  border-radius: 10px;
+  border-style:hidden;
+  }
+  .apertura{
+    text-align: center;
+    margin-right: 400px;
+  }
+
+  .cajita {
+    width: 100%;
+  }
+
+  .cajita-img {
+    max-width: 100%;
+  }
+
+  .cajita-im+g{
+    width: 900px; 
+    height:400px;
+
+  }
+  
+
+  /*Footer*/
+  .site-footer
+  {
+  background-color: rgb(236, 216, 216);
+  padding: 5px 5px;
+  font-size:12px;
+  line-height:24px;
+  color:rgb(187, 86, 86);
+  }
+  .site-footer a
+  {
+  color:rgb(164, 76, 76);
+  }
+  .site-footer a:hover
+  {
+  color:rgb(91, 1, 1);
+  text-decoration:none;
+  }
+  .copyright-text{
+  margin:0
+  }
+  @media (max-width:991px){
+  .site-footer [class^=col-] {margin-bottom:30px}
+  }
+
+
+  @media (min-width: 300px) {
+    .form-control{
+      margin-right: 0px;
+  
+     }
+  }
+.form-control{
+margin-left: 10px;
+width: 100%;
+}
+
+
+
+  .formulario{
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    margin: 0px;
+    text-align-last: center;
+    color: rgb(122, 83, 83);
+  }
+  
+ 
+    .part{
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(73, 36, 36);
+    text-align: center;
+    margin: 40px;
+    }
+    .escriba{
+        font-style: oblique;
+    font-size: 50px;
+    text-decoration:underline;
+    color: rgb(73, 36, 36);
+    text-align:center;
+    margin: 40px;
+    }
+    .enviarf{
+        font-style: normal;
+        font-size: 20px;
+        color: rgb(73, 36, 36);
+        text-align: center;
+        margin: 40px;
+        order: 2;
+    }
+    .tyc{
+      font-style: normal;
+      font-size: 30px;
+      color: rgb(73, 36, 36);
+      text-align: center;
+      margin: 40px;
+      order: 1;
+  }
+    .cont-formulario{   
+        height: 50%;
+        justify-content: space-between;
+        width: 100%;
+        margin-right: 250px;
+    }
+  .ing{
+    background-color:rgb(248, 205, 205) ;
+  }
+  .btn_sub{
+    font-style: normal;
+        font-size: 20px;
+        color: rgb(73, 36, 36);
+        text-align: center;
+        margin: 40px;
+  }
