@@ -1,0 +1,32 @@
+[ 
+{
+    "titulo": "Color",
+    "titulo2": "Oro fino",
+    "titulo3": "Otros metales",
+
+    "Pr":"Oro Amarillo 1000g de Oro",
+    "Pr2": "750g",
+    "Pr3": "125g plata fina + 125g cobre",
+    
+    "ps": "Oro Rojo 1000g de Oro",
+    "ps2": "750g",
+    "ps3": "250g cobre",
+
+    "pt": "Oro Rosa 1000g de Oro",
+    "pt2": "750g",
+    "pt3": "50g plata fina + 200g cobre",
+
+    "pc": "Oro Blanco 1000g de Oro",
+    "pc2": "750g",
+    "pc3": "150g paladio fina + 100g plata fina",
+
+    "pq": "Oro Gris 1000g de Oro",
+    "pq2": "750g",
+    "pq3": "150g niquel + 100g cobre",
+
+    "px": "Oro Verde 1000g de Oro",
+    "px2": "750g",
+    "px3": "250g plata"
+
+}
+]
